@@ -1,8 +1,11 @@
 // Example snippet
+using System.Collections;
+using UnityEngine;
+
 public class GrowAndShrink : MonoBehaviour
 {
-    public float growTime = 3f;
-    public float shrinkTime = 2f;
+    public float growTime = 30f;
+    public float shrinkTime = 30f;
     public float targetScale = 10f;
     public bool growFirst = true;
 
@@ -14,7 +17,7 @@ public class GrowAndShrink : MonoBehaviour
         if (growFirst)
             yield return ScaleOverTime(originalScale, bigScale, growTime);
 
-        yield return new WaitForSeconds(1f); // pause
+        yield return new WaitForSeconds(15f); // pause
 
         yield return ScaleOverTime(transform.localScale, originalScale, shrinkTime);
     }
