@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: 9b3d22d75212c8844a9343287640340f
+guid: 561745e73486f7d43926b34a02c3862a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 8777a16efa2a2fa46ac5bafca83d0817, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -33,11 +38,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Hip Hop Dancing
+      name: Standing Idle
       takeName: mixamo.com
       internalID: -203655887218126122
       firstFrame: 0
-      lastFrame: 134
+      lastFrame: 180
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -47,7 +52,7 @@ ModelImporter:
       loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 1
-      loopBlendPositionY: 1
+      loopBlendPositionY: 0
       loopBlendPositionXZ: 1
       keepOriginalOrientation: 0
       keepOriginalPositionY: 1
@@ -336,179 +341,179 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: Fierce_Squirrel_Defen_1031193925_texture_fbx@Jogging(Clone)
+    - name: Welcoming_Gesture_1031235817_texture_fbx@Standing Idle(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: input
-      parentName: Fierce_Squirrel_Defen_1031193925_texture_fbx@Jogging(Clone)
+      parentName: Welcoming_Gesture_1031235817_texture_fbx@Standing Idle(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
       scale: {x: 100, y: 100, z: 100}
     - name: mixamorig:Hips
-      parentName: Fierce_Squirrel_Defen_1031193925_texture_fbx@Jogging(Clone)
-      position: {x: -0.000000011175871, y: 0.5107377, z: -0.05924443}
-      rotation: {x: -0.0000000042213357, y: 0.0000000037252903, z: -4.656615e-10, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: mixamorig:LeftUpLeg
-      parentName: mixamorig:Hips
-      position: {x: -0.18351659, y: -0.05145927, z: 0.0061221696}
-      rotation: {x: -0.000094468574, y: 0.0120300865, z: 0.9998968, w: 0.007851868}
-      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000001}
-    - name: mixamorig:LeftLeg
-      parentName: mixamorig:LeftUpLeg
-      position: {x: -6.112728e-12, y: 0.16589874, z: -2.0508206e-10}
-      rotation: {x: -0.13588376, y: 0.63975936, z: 0.071945794, w: 0.7530388}
-      scale: {x: 1.000001, y: 1.0000005, z: 1.0000007}
-    - name: mixamorig:LeftFoot
-      parentName: mixamorig:LeftLeg
-      position: {x: -3.1293038e-10, y: 0.18513946, z: -0.000000004836838}
-      rotation: {x: 0.5387187, y: -0.3264195, z: 0.31297657, w: 0.7108293}
-      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
-    - name: mixamorig:LeftToeBase
-      parentName: mixamorig:LeftFoot
-      position: {x: -0.0000000018393752, y: 0.2506137, z: 0.0000000034305856}
-      rotation: {x: 0.111111626, y: 0.012746064, z: 0.11325051, w: 0.98725176}
-      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000005}
-    - name: mixamorig:LeftToe_End
-      parentName: mixamorig:LeftToeBase
-      position: {x: 0.0000000031235217, y: 0.11444172, z: 6.19198e-10}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: mixamorig:RightUpLeg
-      parentName: mixamorig:Hips
-      position: {x: 0.1835166, y: -0.05145927, z: 0.0055787656}
-      rotation: {x: 0.00009017926, y: 0.011484232, z: 0.99990326, w: -0.007852071}
-      scale: {x: 1.0000001, y: 1.0000001, z: 1}
-    - name: mixamorig:RightLeg
-      parentName: mixamorig:RightUpLeg
-      position: {x: 1.7429862e-10, y: 0.16589448, z: 4.1357636e-11}
-      rotation: {x: 0.070871, y: 0.6994043, z: -0.11981982, w: 0.701038}
-      scale: {x: 1.0000005, y: 1.0000004, z: 1}
-    - name: mixamorig:RightFoot
-      parentName: mixamorig:RightLeg
-      position: {x: -1.3706306e-10, y: 0.18501958, z: 0.0000000046857265}
-      rotation: {x: 0.35220766, y: -0.70347685, z: 0.4806213, w: 0.38739285}
-      scale: {x: 0.99999976, y: 0.9999998, z: 0.9999997}
-    - name: mixamorig:RightToeBase
-      parentName: mixamorig:RightFoot
-      position: {x: -9.337133e-10, y: 0.24140409, z: 0.0000000035428172}
-      rotation: {x: 0.1207797, y: -0.009037733, z: -0.074071065, w: 0.9898708}
-      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000004}
-    - name: mixamorig:RightToe_End
-      parentName: mixamorig:RightToeBase
-      position: {x: -0.0000000017768179, y: 0.09606971, z: 1.3338634e-10}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
+      parentName: Welcoming_Gesture_1031235817_texture_fbx@Standing Idle(Clone)
+      position: {x: -0.0000000037252903, y: 0.8322967, z: 0.0036322596}
+      rotation: {x: -3.0386e-11, y: -2.811384e-16, z: -0.0000000037252903, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
     - name: mixamorig:Spine
       parentName: mixamorig:Hips
-      position: {x: -0, y: 0.09480148, z: 0.0067056464}
-      rotation: {x: 0.03530074, y: -0.000000007445937, z: 2.6301147e-10, w: 0.9993768}
-      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+      position: {x: -0, y: 0.10220853, z: 0.00086858746}
+      rotation: {x: 0.004248992, y: -0.000000011157963, z: 0.0000000042384007, w: 0.999991}
+      scale: {x: 1, y: 1, z: 1}
     - name: mixamorig:Spine1
       parentName: mixamorig:Spine
-      position: {x: -0, y: 0.11087807, z: 2.418858e-11}
-      rotation: {x: -0.00000016391276, y: 0.0000000037324335, z: -3.0596328e-11, w: 1}
-      scale: {x: 1, y: 1, z: 1.0000001}
+      position: {x: -0, y: 0.11924757, z: 3.595475e-11}
+      rotation: {x: 0.000000010244548, y: 0.000000011161618, z: -0.0000000017247281, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
     - name: mixamorig:Spine2
       parentName: mixamorig:Spine1
-      position: {x: -0, y: 0.12671787, z: -4.9485266e-10}
-      rotation: {x: -0.00000001117587, y: 0.0000000037324335, z: -3.059563e-11, w: 1}
-      scale: {x: 1, y: 1, z: 1}
+      position: {x: -0, y: 0.13628301, z: -3.9747823e-11}
+      rotation: {x: 0.0000000018626451, y: -9.965824e-10, z: -0.000000007675222, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
     - name: mixamorig:LeftShoulder
       parentName: mixamorig:Spine2
-      position: {x: -0.06284374, y: 0.12302934, z: -0.0031654537}
-      rotation: {x: 0.55367786, y: -0.43155903, z: 0.5828671, w: 0.40922317}
-      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000005}
+      position: {x: -0.07133531, y: 0.13333704, z: 0.0000262086}
+      rotation: {x: 0.56298834, y: -0.42789602, z: 0.562786, w: 0.42804334}
+      scale: {x: 1, y: 1, z: 1}
     - name: mixamorig:LeftArm
       parentName: mixamorig:LeftShoulder
-      position: {x: -2.1234683e-10, y: 0.12876312, z: -0.0000000012986785}
-      rotation: {x: -0.15678161, y: 0.009833753, z: -0.06182307, w: 0.98564744}
-      scale: {x: 0.9999996, y: 1.0000002, z: 0.9999998}
+      position: {x: -5.550866e-12, y: 0.1485521, z: 4.0147083e-12}
+      rotation: {x: -0.11299308, y: 0.0006555617, z: -0.005763918, w: 0.9935789}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000004}
     - name: mixamorig:LeftForeArm
       parentName: mixamorig:LeftArm
-      position: {x: -0.0000000012544078, y: 0.17538932, z: 3.48782e-10}
-      rotation: {x: -0.008695423, y: -0.0001697149, z: 0.019526081, w: 0.9997715}
-      scale: {x: 1.0000011, y: 0.9999997, z: 1.0000004}
+      position: {x: -1.0057846e-10, y: 0.23024468, z: 1.3357997e-10}
+      rotation: {x: -0.034398947, y: 0.0011471352, z: -0.03330745, w: 0.9988524}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000004}
     - name: mixamorig:LeftHand
       parentName: mixamorig:LeftForeArm
-      position: {x: -7.1984516e-11, y: 0.16681828, z: 4.3568504e-10}
-      rotation: {x: 0.021795169, y: -0.001455813, z: -0.06663333, w: 0.99753845}
-      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+      position: {x: -3.6785144e-10, y: 0.22357522, z: 1.8186768e-11}
+      rotation: {x: 0.0148191955, y: -0.000259285, z: -0.017484363, w: 0.9997374}
+      scale: {x: 1.0000006, y: 1.000001, z: 1.0000005}
     - name: mixamorig:LeftHandIndex1
       parentName: mixamorig:LeftHand
-      position: {x: -7.187602e-10, y: 0.08421935, z: -2.3375296e-11}
-      rotation: {x: 0.021577502, y: 0.009573196, z: 0.07471163, w: 0.9969258}
-      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000001}
+      position: {x: -1.1677824e-10, y: 0.1025375, z: -3.3910368e-11}
+      rotation: {x: 0.023185603, y: -0.000702203, z: -0.03026502, w: 0.9992727}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1.0000002}
     - name: mixamorig:LeftHandIndex2
       parentName: mixamorig:LeftHandIndex1
-      position: {x: -2.9094095e-11, y: 0.025893647, z: -2.0786031e-11}
-      rotation: {x: -0.0029566686, y: 0.000000039115534, z: 0.023603808, w: 0.99971706}
-      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000004}
+      position: {x: 1.7925948e-10, y: 0.047652297, z: 7.164047e-11}
+      rotation: {x: 0.11135502, y: 0.000000065308974, z: -0.022403048, w: 0.9935281}
+      scale: {x: 0.9999998, y: 0.9999996, z: 0.9999998}
     - name: mixamorig:LeftHandIndex3
       parentName: mixamorig:LeftHandIndex2
-      position: {x: 0.0027728092, y: 0.021638608, z: 0.0003472876}
-      rotation: {x: 0.12725171, y: -0.016879333, z: 0.03571302, w: 0.9910836}
-      scale: {x: 1.0000004, y: 1.0000002, z: 1}
+      position: {x: -0.003746033, y: 0.061435573, z: -0.018619802}
+      rotation: {x: -0.08761629, y: -0.007776702, z: -0.008031775, w: 0.99609166}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
     - name: mixamorig:LeftHandIndex4
       parentName: mixamorig:LeftHandIndex3
-      position: {x: 0.0017919199, y: 0.007984746, z: -0.0026111943}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: mixamorig:Neck
-      parentName: mixamorig:Spine2
-      position: {x: -0, y: 0.14255752, z: 0.00000004881231}
-      rotation: {x: -0.035300553, y: -0.0000000037558445, z: -7.992372e-10, w: 0.9993768}
-      scale: {x: 1, y: 1.0000002, z: 0.9999999}
-    - name: mixamorig:Head
-      parentName: mixamorig:Neck
-      position: {x: -0, y: 0.061247587, z: 0.0032994652}
-      rotation: {x: -0.000000011175869, y: 9.313228e-10, z: 0.0000000022118911, w: 1}
-      scale: {x: 1, y: 0.9999999, z: 1}
-    - name: mixamorig:HeadTop_End
-      parentName: mixamorig:Head
-      position: {x: -0, y: 0.76398665, z: 0.041156538}
+      position: {x: -0.00369499, y: 0.04358828, z: -0.0018964619}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: mixamorig:RightShoulder
       parentName: mixamorig:Spine2
-      position: {x: 0.06284374, y: 0.12324904, z: -0.000059334256}
-      rotation: {x: 0.5674592, y: 0.42180958, z: -0.5682452, w: 0.4209087}
-      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000004}
+      position: {x: 0.07133531, y: 0.13333948, z: 0.00031336385}
+      rotation: {x: 0.5641109, y: 0.42704725, z: -0.56164646, w: 0.4289089}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
     - name: mixamorig:RightArm
       parentName: mixamorig:RightShoulder
-      position: {x: 1.09814415e-10, y: 0.1284747, z: 6.625106e-10}
-      rotation: {x: -0.15395387, y: 0.000791952, z: -0.005082518, w: 0.98806465}
-      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+      position: {x: -2.527984e-11, y: 0.1485521, z: 0.0000000025536082}
+      rotation: {x: -0.11296487, y: -0.00014090538, z: 0.0012381673, w: 0.9935982}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000004}
     - name: mixamorig:RightForeArm
       parentName: mixamorig:RightArm
-      position: {x: -1.2083934e-10, y: 0.17498842, z: -7.1983926e-11}
-      rotation: {x: -0.012799427, y: -0.00059916696, z: 0.04675724, w: 0.99882406}
-      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000004}
+      position: {x: -8.672545e-11, y: 0.23023479, z: 2.9752648e-10}
+      rotation: {x: -0.034489863, y: -0.0012312965, z: 0.035655204, w: 0.9987681}
+      scale: {x: 1, y: 1.0000006, z: 1.0000005}
     - name: mixamorig:RightHand
       parentName: mixamorig:RightForeArm
-      position: {x: 1.1660052e-10, y: 0.16734512, z: -7.8902926e-11}
-      rotation: {x: 0.013505958, y: -0.00011903513, z: -0.008808764, w: 0.99987}
-      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+      position: {x: -9.580745e-10, y: 0.22357494, z: 3.0897916e-11}
+      rotation: {x: -0.0026848428, y: -0.00008520589, z: 0.031748798, w: 0.99949235}
+      scale: {x: 1.0000004, y: 0.9999998, z: 0.9999998}
     - name: mixamorig:RightHandIndex1
       parentName: mixamorig:RightHand
-      position: {x: -1.412522e-10, y: 0.07423666, z: -6.2742745e-12}
-      rotation: {x: 0.0015405209, y: 0.00010867851, z: 0.07033347, w: 0.9975224}
-      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000002}
+      position: {x: 3.1731345e-10, y: 0.09789496, z: -3.4187406e-11}
+      rotation: {x: 0.07995678, y: -0.0023633963, z: -0.017936295, w: 0.9966341}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000002}
     - name: mixamorig:RightHandIndex2
       parentName: mixamorig:RightHandIndex1
-      position: {x: 2.0448954e-10, y: 0.023346126, z: -7.9225945e-11}
-      rotation: {x: 0.025081037, y: 0.000000111947884, z: 0.062371407, w: 0.9977379}
-      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+      position: {x: 1.2292744e-12, y: 0.049555317, z: 7.420567e-11}
+      rotation: {x: 0.21414895, y: -0.00000010337677, z: -0.02304986, w: 0.97652906}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000004}
     - name: mixamorig:RightHandIndex3
       parentName: mixamorig:RightHandIndex2
-      position: {x: 0.0040872646, y: 0.020544285, z: -0.001643694}
-      rotation: {x: -0.139759, y: 0.010262034, z: -0.21925873, w: 0.96555054}
-      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+      position: {x: -0.0034536507, y: 0.05960959, z: -0.032087024}
+      rotation: {x: -0.15951608, y: -0.0044595697, z: 0.00888452, w: 0.98714536}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
     - name: mixamorig:RightHandIndex4
       parentName: mixamorig:RightHandIndex3
-      position: {x: -0.0018370621, y: 0.005881813, z: 0.0014461468}
+      position: {x: -0.0015002815, y: 0.044337265, z: -0.0046815197}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Neck
+      parentName: mixamorig:Spine2
+      position: {x: -0, y: 0.1533183, z: -0.0000000065284143}
+      rotation: {x: -0.0042490046, y: 0.0000000028340095, z: 0.000000009417688, w: 0.999991}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: mixamorig:Head
+      parentName: mixamorig:Neck
+      position: {x: -0, y: 0.040776864, z: 0.0064003086}
+      rotation: {x: -4.656636e-10, y: -9.313226e-10, z: -4.0745354e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:HeadTop_End
+      parentName: mixamorig:Head
+      position: {x: -0, y: 0.5335156, z: 0.08374022}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightUpLeg
+      parentName: mixamorig:Hips
+      position: {x: 0.10541602, y: -0.056719415, z: -0.0045621204}
+      rotation: {x: -0.00040658977, y: -0.0073123937, z: 0.99843085, w: -0.055518236}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: mixamorig:RightLeg
+      parentName: mixamorig:RightUpLeg
+      position: {x: -3.8608972e-10, y: 0.3535398, z: -1.16203734e-10}
+      rotation: {x: 0.0036546905, y: 0.00003868615, z: 0.010580791, w: 0.9999374}
+      scale: {x: 1.0000007, y: 1.0000005, z: 1}
+    - name: mixamorig:RightFoot
+      parentName: mixamorig:RightLeg
+      position: {x: 0.000000001286128, y: 0.306336, z: 1.11636894e-10}
+      rotation: {x: 0.46875042, y: -0.1384575, z: 0.05372663, w: 0.870756}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: mixamorig:RightToeBase
+      parentName: mixamorig:RightFoot
+      position: {x: -7.0205003e-10, y: 0.18620059, z: -0.000000004766031}
+      rotation: {x: 0.27619374, y: -0.053613104, z: 0.015432952, w: 0.95948136}
+      scale: {x: 1.0000002, y: 1, z: 0.99999994}
+    - name: mixamorig:RightToe_End
+      parentName: mixamorig:RightToeBase
+      position: {x: 0.0000000026140161, y: 0.080289364, z: -2.2378259e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftUpLeg
+      parentName: mixamorig:Hips
+      position: {x: -0.10541602, y: -0.056719415, z: -0.0053486587}
+      rotation: {x: 0.00044996914, y: -0.00809237, z: 0.9984249, w: 0.05551656}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1}
+    - name: mixamorig:LeftLeg
+      parentName: mixamorig:LeftUpLeg
+      position: {x: 0.000000002125287, y: 0.35354823, z: -4.3732185e-10}
+      rotation: {x: 0.0075084832, y: -0.000079512305, z: -0.010589269, w: 0.9999158}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1}
+    - name: mixamorig:LeftFoot
+      parentName: mixamorig:LeftLeg
+      position: {x: -5.46285e-10, y: 0.3063281, z: 1.3831354e-11}
+      rotation: {x: 0.46838027, y: 0.14312051, z: -0.055683706, w: 0.870078}
+      scale: {x: 0.9999999, y: 1.0000005, z: 1.0000002}
+    - name: mixamorig:LeftToeBase
+      parentName: mixamorig:LeftFoot
+      position: {x: -0.0000000020543085, y: 0.18819411, z: 0.0000000061457177}
+      rotation: {x: 0.27298975, y: 0.05673237, z: -0.016129225, w: 0.9602073}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: mixamorig:LeftToe_End
+      parentName: mixamorig:LeftToeBase
+      position: {x: 0.0000000052022715, y: 0.081119314, z: 8.319702e-11}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
@@ -523,11 +528,11 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 1082d12e795b161418ae8d8be8bda956, type: 3}
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 2
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
